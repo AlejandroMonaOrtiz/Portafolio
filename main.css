@@ -1,0 +1,42 @@
+    root {
+    --color-blue-medium: #8fe2e4;
+    --color-purple: #632ce7;
+    --color-gray: #ccc;
+    --color-gray-medium: #f8f9fa;
+    --color-yellow: #fac32c;
+    }
+    /* ------ GENERAL STYLE ------- */
+    a {
+    color: inherit;
+    }
+    .container > .row {
+    margin-bottom: 3rem;
+    }
+
+    /* ------ SECTIONS ------- */
+    /* ------> Nav */
+    .navbar-brand > img {
+    width: 55px;
+    }
+    .navbar-main .active {
+    text-decoration: underline wavy var(--color-purple);
+    text-underline-offset: 9px;
+}
+
+
+  .header-main {
+    margin-top: 7%;
+
+  }
+  h1{
+    color: white;
+  }
+  hr{
+    color: white;
+  }
+  #musica{
+    margin-top: 2%;
+  }
+  #footer{
+    color: white;
+  }
